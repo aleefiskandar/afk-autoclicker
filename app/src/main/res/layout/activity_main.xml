@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AFK Skipper Setup"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btnOverlayPermission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Grant Display Over Other Apps"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnAccessibilityPermission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Enable Accessibility Service"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnStartAfk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. Start AFK Service"
+        android:backgroundTint="@android:color/holo_green_dark" />
+
+</LinearLayout>

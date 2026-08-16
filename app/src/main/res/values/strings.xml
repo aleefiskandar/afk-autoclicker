@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AFK Auto Skipper</string>
+    <string name="accessibility_service_description">Autonomous AFK service for scanning and dismissing game advertisements.</string>
+</resources>
